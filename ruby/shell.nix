@@ -9,7 +9,7 @@ with lib;
 let
 
 in stdenv.mkDerivation {
-  name = "libpoker-dev";
+  name = "libpoker-ruby-dev";
 
   buildInputs = [
     ruby.devEnv
