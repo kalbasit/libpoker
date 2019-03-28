@@ -1,0 +1,19 @@
+source 'https://rubygems.org'
+
+git_source(:github) do |repo_name|
+  repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?('/')
+  "https://github.com/#{repo_name}.git"
+end
+
+gem 'rake'
+gem 'rake-compiler'
+gem 'bundler'
+gem 'jeweler', '>= 1.5'
+
+group :development, :test do
+  gem 'rspec', '>= 2.4.0'
+  gem 'rake-tester'
+  gem 'factory_girl'
+  gem 'cucumber'
+  gem 'spork'
+end

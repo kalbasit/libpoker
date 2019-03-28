@@ -1,0 +1,12 @@
+- add_player should honor the type of the game, so for instance if you try to add one more player to 5-player full game, an exception should be raised.
+  (added Mon Dec 20 00:00:15 2010, incomplete, priority high)
+
+- Take a look at Senzee's 7-cards evaluator, it might be faster than evaluating all 21 possible 5-cards and use that to evaluate 7-cards
+  (added Sun Dec 19 17:18:03 2010, incomplete, priority medium)
+
+- A poker game should have a dealer
+  (added Sun Dec 19 18:41:15 2010, incomplete, priority medium)
+
+- A poker game should have a position on the table for each player
+  (added Sun Dec 19 18:41:36 2010, incomplete, priority medium)
+

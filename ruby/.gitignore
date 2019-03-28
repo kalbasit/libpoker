@@ -1,0 +1,63 @@
+# Build files
+*.o
+*.so
+
+# Backup files
+*~
+
+# Makefiles
+Makefile
+
+# rcov generated
+coverage
+
+# rdoc generated
+rdoc
+
+# extensions generated
+tmp
+
+# yard generated
+doc
+.yardoc
+
+# bundler
+.bundle
+
+# jeweler generated
+pkg
+
+# For MacOS:
+.DS_Store
+
+# For Windows
+Thumbs.db
+
+# Eclipse
+.project
+.cproject
+
+# For TextMate
+*.tmproj
+tmtags
+
+# Redcar
+.redcar
+
+# Todo
+.todo
+
+# For emacs:
+\#*
+.\#*
+
+# For vim:
+*.swp
+
+# Netbeans
+nbproject
+ext/Cardslib_native
+
+# Configure and Makefile
+ext/cardslib_native/configure
+ext/cardslib_native/Makefile
